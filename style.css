@@ -1,5 +1,96 @@
+/*------------Variables--------------
+font-family: 'Pacifico', cursive;
+font-family: 'Oswald', sans-serif;
+---------------------------------*/
+
+*{
+   box-sizing: border-box;
+ }
+body {
+  clear: both;
+  margin: 40px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.5rem;
+  margin-top: 60px;
+}
+
+h1+p {
+  font-size: .65rem;
+  color: grey;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+
+}
+
+.social {
+  display: inline-block;
+  position: absolute;
+  right: 35px;
+  top: 100px;
+}
+
+header {
+  border: solid transparent; 
+  border-image: url(img/hr-img.png);
+  border-image-slice: 1;
+  border-image-repeat: space repeat; 
+  border-image-width: 0 0 15px 0;
+  padding: 50px 0;
+  
+ 
+}
+
+.transform {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+header img {
+  float: left;
+  margin-right: 8px;
+  margin-top: 2px;
+}
+
+.social img:nth-child(7) {
+  margin-left: 8px;
+}
+header p {
+  font-size: .65rem;
+
+}
+
+#float-right {
+  float: right;
+}
+
+#pizza {
+  clear: both;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.grey {
+  display:inline-block;
+  color: grey;
+  font-size: .75rem;
+  width: 100%;
+}
 
 
+
+footer div:last-of-type{
+  border: solid transparent; 
+  border-image: url(img/hr-img.png);
+  border-image-slice: 1;
+  border-image-repeat: r space; 
+  /* border-image-width: 0 0 15px 0; */
+}
 
 
 
