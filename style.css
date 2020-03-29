@@ -1,0 +1,203 @@
+/*------------Variables--------------
+font-family: 'Pacifico', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Patrick Hand', cursive;
+---------------------------------*/
+
+*{
+   box-sizing: border-box;
+ }
+body {
+  clear: both;
+  margin: 40px 200px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.5rem;
+  margin-top: 60px;
+}
+
+h1+p {
+  font-size: .65rem;
+  color: grey;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+
+}
+
+h3{
+  font-weight: bold;
+  margin: 20px 0 10px 10px;
+}
+
+.social {
+  display: inline-block;
+  position: absolute;
+  right: 200px;
+  top: 100px;
+}
+
+header {
+  border: solid transparent; 
+  border-image: url(img/hr-img.png);
+  border-image-slice: 1;
+  border-image-repeat: space repeat; 
+  border-image-width: 0 0 15px 0;
+  padding: 50px 0;
+  
+ 
+}
+
+.transform {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+header img {
+  float: left;
+  margin-right: 8px;
+  margin-top: 2px;
+}
+
+.social img:nth-child(7) {
+  margin-left: 8px;
+}
+header p {
+  font-size: .65rem;
+
+}
+
+#float-right {
+  float: right;
+}
+
+#pizza {
+  clear: both;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.grey {
+  display:inline;
+  color: grey;
+  font-size: 1rem;
+  width: 100%;
+}
+
+article p {
+  margin: 20px auto;
+  text-indent: 30px;
+  width: 100%;
+}
+
+section {
+  margin: 40px auto;
+  background-image: url('img/list-bg.png');
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+form {
+height: 300px;
+font-family: 'Patrick Hand', cursive;
+font-size: 1.8rem;
+}
+
+#field1 {
+  display: inline-block;
+ width: 400px;
+ line-height: 35px;
+ margin: 0px 0 0 70px;
+ position: relative;
+ top: -35px;
+}
+
+#field2 {
+  display: inline-block;
+  width: 400px;
+ line-height: 35px;
+ margin: 40px 0 0 70px;
+}
+
+
+.strike {
+text-decoration: line-through  ;
+}
+
+footer {
+  border: solid transparent; 
+  border-image: url(img/hr-img.png);
+  border-image-slice: 1;
+  border-image-repeat: space repeat; 
+  border-image-width: 15px 0 0 0;
+  padding: 50px 0;
+
+}
+
+footer img:first-of-type {
+  float: left;
+}
+
+/* footer img:last-of-type {
+  text-align: center;
+} */
+
+footer div:last-of-type {
+  text-align: center;
+  color: grey;
+  margin-top: 40px;
+  clear: both;
+}
+
+button {
+  position: relative;
+  left: 780px;
+  bottom: 50px;
+  padding: 10px 35px;
+  background-color: rgba(233, 113, 0, 0.89);
+  color: white;
+  font-size: 1.25rem;
+}
+
+
+footer div:last-of-type{
+  border: solid transparent; 
+  border-image: url(img/hr-img.png);
+  border-image-slice: 1;
+  border-image-repeat: r space; 
+  /* border-image-width: 0 0 15px 0; */
+}
+
+#foot-logo {
+  clear: both;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
